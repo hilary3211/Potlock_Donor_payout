@@ -39,7 +39,7 @@ npm install -g near-cli
 ```
 
 ```bash
-rustup target add wasm32-unknown-unknown
+cargo near
 ```
 
 ```bash
