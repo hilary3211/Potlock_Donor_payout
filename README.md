@@ -1,6 +1,6 @@
 #  POTLOCK Donor Payout  Smart Contract
 
-Built on the NEAR blockchain, facilitates a donation and airdrop system for campaigns. It maintains detailed records of user donations and airdrop distributions, enabling donors to receive token or NFT rewards post-donation. The contract integrates with a Potlock NFT contract (e.g., potlock-nfts.testnet) to mint NFTs as rewards for eligible donors.
+Built on the NEAR blockchain, facilitates a donation and airdrop system for campaigns. It maintains detailed records of user donations and airdrop distributions, enabling donors to receive token or NFT rewards post-donation. The contract integrates with a Potlock NFT contract ```potlock-nfts.testnet``` to mint NFTs as rewards for eligible donors.
 
 
 ## Features
