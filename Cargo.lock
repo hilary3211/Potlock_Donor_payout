@@ -2728,8 +2728,11 @@ dependencies = [
 name = "potlock_donor_payout"
 version = "0.1.0"
 dependencies = [
+ "borsh",
  "near-sdk",
  "near-workspaces",
+ "schemars",
+ "serde",
  "serde_json",
  "tokio",
 ]

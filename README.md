@@ -1,10 +1,54 @@
-# potlock_donor_payout
+#  POTLOCK Donor Payout  Smart Contract
 
-cargo-near-new-project-description
+Built on the NEAR blockchain, facilitates a donation and airdrop system for campaigns. It maintains detailed records of user donations and airdrop distributions, enabling donors to receive token or NFT rewards post-donation. The contract integrates with a Potlock NFT contract (e.g., potlock-nfts.testnet) to mint NFTs as rewards for eligible donors.
+
+
+## Features
+- Donation Tracking: Records user donations in yoctoNEAR, associating them with a donor’s account ID and campaign.
+
+- Airdrop Management: Logs airdrop distributions (tokens or NFTs) with details like recipient, amount, timestamp, campaign ID, and reward type.
+
+- NFT Rewards: Allows donors to claim NFT rewards via a cross-contract call to a Genadrop NFT contract, updating airdrop records with minted NFT details.
+
+- Campaign Support: Tracks donations and airdrops per campaign, with pagination for retrieving airdrop records.
+
+- Storage Management: Requires deposits to cover storage costs for state updates, ensuring scalability on NEAR.
+
+
+
+## Technologies Used
+- Rust: The programming language used to write the smart contract.
+
+- NEAR SDK: For interacting with the NEAR blockchain.
+
+- NEAR Testnet: The contract is deployed on the NEAR Testnet for testing.
+
+
+## Contract ID
+```
+potlock_donor.testnet
+```
+
 
 ## How to Build Locally?
 
 Install [`cargo-near`](https://github.com/near/cargo-near) and run:
+
+```bash
+npm install -g near-cli
+```
+
+```bash
+rustup target add wasm32-unknown-unknown
+```
+
+```bash
+git clone https://github.com/hilary3211/Potlock_Donor_payout.git
+```
+
+```bash
+cd Potlock_Donor_payout
+```
 
 ```bash
 cargo near build
@@ -15,6 +59,7 @@ cargo near build
 ```bash
 cargo test
 ```
+
 
 ## How to Deploy?
 
