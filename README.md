@@ -26,7 +26,7 @@ Built on the NEAR blockchain, facilitates a donation and airdrop system for camp
 
 ## Contract ID
 ```
-potlock_donor.testnet
+potlock-donor2.testnet
 ```
 
 
